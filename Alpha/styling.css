@@ -17,10 +17,8 @@
   html {
     --white: #ffffff;
     --gray-white: #EAEAEA;
-    --blue: #1D4ED8;
-    --orange: #ED5513;
+    --yellow: #EAEA05;
     --charcoal: #222823;
-    --blue-black: #15192F;
     --gray: #777777;
     --black: black;
     scroll-behavior: smooth;
@@ -68,6 +66,10 @@
         height: auto;
       }
     } 
+
+    .hcolor {
+      color: var(--yellow);
+    }
   }
 
   .assignment {

@@ -72,13 +72,22 @@
     }
   }
 
+
+  #assgnmtgrid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 0;
+  }
+
+
   .assignment {
     background-color: var(--gray-white);
     border-radius: 30px;
     padding: 35px;
     /* width: 800px; */
     color: var(--black);
-    margin: 50px;
     justify-self: center;
     
 
@@ -102,11 +111,23 @@
       }
     }
 
+    button:hover {
+      color: var(--black);
+      background-color: transparent;
+
+      a{
+          color: var(--black);
+      }
+    }
+
     p {
         color: var(--charcoal);
       }
 
 
+  }
 
-
+  .animgif {
+    width: 750px;
+    border-radius: 30px;
   }

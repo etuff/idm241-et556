@@ -72,6 +72,10 @@
     }
   }
 
+  #title {
+    justify-self: center;
+  }
+
 
   #assgnmtgrid {
     display: flex;
@@ -130,4 +134,12 @@
   .animgif {
     width: 750px;
     border-radius: 30px;
+  }
+
+  footer {
+    justify-items: center;
+
+    p {
+      color: var(--gray);
+    }
   }

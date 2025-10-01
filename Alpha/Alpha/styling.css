@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "grotesk";
+    src: url("font/HostGrotesk-Medium.ttf");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200 800;
+  }
+  
+  @font-face {
+    font-family: "bold";
+    src: url("font/HostGrotesk-Bold.ttf");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200 800;
+  }
+
+  html {
+    --white: #ffffff;
+    --gray-white: #EAEAEA;
+    --blue: #1D4ED8;
+    --orange: #ED5513;
+    --charcoal: #222823;
+    --blue-black: #15192F;
+    --gray: #777777;
+    --black: black;
+    scroll-behavior: smooth;
+  
+    --tbody: 'grotesk', Arial, sans-serif;
+    --ttitle: 'bold', Arial, sans-serif; 
+  
+  }
+
+
+  body {
+    background-image: linear-gradient(to right top, #33363b, #272c2f, #1e2223, #161918, #0c0d0c);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    padding: 0 100px;
+
+    color: var(--white);
+
+    /* h1, h2, h3 {
+      font-family: var(--ttitle);
+    } */
+    
+
+    p, h1, h2, h3 {
+      font-family: var(--tbody);
+    }
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    #lh {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        width: 60px;
+        height: auto;
+      }
+    } 
+  }
+
+  .assignment {
+    background-color: var(--gray-white);
+    border-radius: 30px;
+    padding: 35px;
+    /* width: 800px; */
+    color: var(--black);
+    margin: 50px;
+    justify-self: center;
+    
+
+    button {
+      font-family: var(--tbody);
+      margin: 0;
+      padding: 5px 15px;
+      color: var(--white);
+      background-color: var(--black);
+      border: 3px solid var(--black);
+      border-radius: 30px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      transition: all 0.3s ease-in-out;
+      
+
+      a {
+          color: var(--white);
+          font-size: 18px;
+          margin: 0;
+          text-decoration: none;
+      }
+    }
+
+    p {
+        color: var(--charcoal);
+      }
+
+
+
+
+  }

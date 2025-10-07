@@ -1,6 +1,6 @@
 @font-face {
     font-family: "grotesk";
-    src: url("font/HostGrotesk-Medium.ttf");
+    src: url("../alpha/font/HostGrotesk-Medium.ttf");
     font-style: normal;
     font-display: swap;
     font-weight: 200 800;
@@ -8,7 +8,7 @@
   
   @font-face {
     font-family: "bold";
-    src: url("font/HostGrotesk-Bold.ttf");
+    src: url("../alpha/font/HostGrotesk-Bold.ttf");
     font-style: normal;
     font-display: swap;
     font-weight: 200 800;

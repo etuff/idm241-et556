@@ -143,3 +143,107 @@
       color: var(--gray);
     }
   }
+
+
+
+
+
+  @media (max-width: 1300px) {
+  body {
+    padding: 0 50px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #assgnmtgrid {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .assignment {
+    width: 90%;
+    padding: 25px;
+  }
+
+  img {
+      width: 400px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  body {
+    padding: 0 25px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #lh img {
+    width: 45px;
+  }
+
+  #assgnmtgrid {
+    flex-direction: column;
+    gap: 25px;
+
+    img {
+      width: 400px;
+    }
+  }
+
+  .assignment {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .assignment button a {
+    font-size: 16px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .animgif {
+    width: 100%;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  body {
+    padding: 0 15px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .assignment {
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  .assignment button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2rem;
+  }
+}

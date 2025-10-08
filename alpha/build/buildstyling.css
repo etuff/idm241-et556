@@ -155,10 +155,13 @@ background: linear-gradient(90deg, rgba(234, 234, 234, 1) 0%, rgba(234, 234, 234
   width: 100%;
   color: var(--black);
   justify-self: center;
+  transition: all 0.4s ease;
+    
+  }
 
 
-    
-    
+  .assignment:hover {
+    background: #EAEAEA;
   }
 
 
@@ -228,7 +231,6 @@ background: linear-gradient(90deg, rgba(234, 234, 234, 1) 0%, rgba(234, 234, 234
     }
 
   .assignment {
-    background-color: var(--gray-white);
     width: 100%;
     padding: 20px;
   }
@@ -271,7 +273,6 @@ background: linear-gradient(90deg, rgba(234, 234, 234, 1) 0%, rgba(234, 234, 234
     }
 
   .assignment {
-    background-color: var(--gray-white);
     border-radius: 10px;
     padding: 15px;
   }

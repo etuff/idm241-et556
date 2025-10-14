@@ -156,6 +156,26 @@ background: linear-gradient(90deg, rgba(234, 234, 234, 1) 0%, rgba(234, 234, 234
   color: var(--black);
   justify-self: center;
   transition: all 0.4s ease;
+
+  button {
+      font-family: var(--tbody);
+      margin: 0;
+      padding: 5px 15px;
+      color: var(--white);
+      background-color: var(--black);
+      border: 3px solid var(--black);
+      border-radius: 30px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      transition: all 0.3s ease-in-out;
+      
+
+      a {
+          color: var(--white);
+          font-size: 18px;
+          margin: 0;
+          text-decoration: none;
+      }
+    }
     
   }
 

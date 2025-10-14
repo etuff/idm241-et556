@@ -176,6 +176,15 @@ background: linear-gradient(90deg, rgba(234, 234, 234, 1) 0%, rgba(234, 234, 234
           text-decoration: none;
       }
     }
+
+    button:hover {
+      color: var(--black);
+      background-color: transparent;
+
+      a{
+          color: var(--black);
+      }
+    }
     
   }
 

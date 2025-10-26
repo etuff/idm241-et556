@@ -143,6 +143,18 @@
   }
 }
 
+.inbox {
+  margin-bottom: 20px;
+  
+  h2 {
+    margin: 3px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
 
 /* object list */
  .assignment { 

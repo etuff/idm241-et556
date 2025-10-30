@@ -187,6 +187,86 @@
     border-radius: 30px;
   }
 
+
+
+
+
+  /* beta build */
+  .cardview {
+  background: var(--black);
+  transition: all 0.4s ease;
+  color: var(--white);
+  width: fit-content;
+  max-width: 1000px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+
+  img{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .grayy {
+    color: var(--gray);
+  }
+
+  
+
+  .intxt {
+    padding: 30px;
+
+    h3 {
+      margin: 0;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    button {
+      width: 50px;
+      padding: 50%;
+      background-color: var(--white);
+      position: fixed;
+      left: 40px;
+      bottom: 40px;
+
+    
+    }
+
+  }
+
+}
+
+
+.cardview:hover {
+  background: linear-gradient(
+    161deg,
+    rgba(85, 85, 85, 1) 0%,
+    rgba(40, 40, 40, 1) 18%,
+    rgba(15, 15, 13, 1) 38%,
+    rgba(0, 0, 0, 1) 100%
+  );
+
+  img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+}
+
+
+
+
+  
+
   footer {
     justify-items: center;
 

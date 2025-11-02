@@ -510,6 +510,10 @@
     padding: 0 10px;
   }
 
+  #title {
+    justify-self: center;
+  }
+
   .assignment {
     padding: 0;
   }
@@ -552,7 +556,9 @@
     flex-direction: column;
   }
 
-  
+  footer {
+    place-items: center;
+  }
 
   
 }

@@ -159,7 +159,7 @@
 
 
 
-  /* beta build */
+  /* final build */
   .cardview {
   background: var(--black);
   transition: all 0.4s ease;
@@ -223,6 +223,14 @@
     }
 
   
+    .cflip {
+        background-color: var(--white);
+
+        h2  {
+            justify-tracks: center;
+        }
+    
+    }
 
     .menu {
       position: relative;

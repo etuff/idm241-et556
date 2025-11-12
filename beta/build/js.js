@@ -14,3 +14,11 @@ const fav = document.getElementById("favbtn");
       favbtn.setAttribute("name", "bookmark-outline");
     }
   });
+
+
+  // share button animation
+  const likeButton = document.getElementById('shareicon');
+
+likeButton.addEventListener('click', () => {
+  likeButton.classList.toggle('active');
+});

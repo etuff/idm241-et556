@@ -26,51 +26,86 @@
     <div id="assgnmtgrid">
 
 
-        <div class="cardview">
-        
-            <div class="intxt">
-                <div>
+        <div class="cardcontainer">
+
+            <div class="cardfull">
+                <div class="cardview">
                 
-                    <h3 class="grayy">BS</h3>
-                    <h2>Animation & Visual Effects</h2>
-                    <p class="grayy">
-                        Bring stories to life with stunning visuals, mastering animations and VFX to captive audiences 
-                        and push creative boundaries.
-                    </p>
+                    <div class="intxt">
+                        <div>
+                        
+                            <h3 class="grayy">BS</h3>
+                            <h2>Animation & Visual Effects</h2>
+                            <p class="grayy">
+                                Bring stories to life with stunning visuals, mastering animations and VFX to captive audiences 
+                                and push creative boundaries.
+                            </p>
 
-                    
+                            
 
-                </div>
-
-                <div>
-                    <p> Learn more</p>
-                
-                <div class="cflip">
-                    <h2>Click to Flip for more info</h2>
-                </div>
-                </div>
-
-                <div class="menu" id="gmenu">
-                    <div class="btn" id="btn">
-                        <ion-icon name="add-outline"></ion-icon>
-                    </div>
-
-                    <div class="submenu">
-                        <div class="shareicon" id="shareicon">
-                            <ion-icon name="share-outline"></ion-icon>
-                            <ion-icon name="share-outline"></ion-icon>
                         </div>
-            
-                        <ion-icon class="favbtn" id="favbtn" name="bookmark-outline"></ion-icon>
+
+                        <div>
+                            <p> Learn more</p>
+                        
+                            <div class="cflip">
+                                <div  class="txt"><h2>Click to Flip for more info</h2> </div>
+                                <div class="behind"></div>
+                            </div>
+                        </div>
+
+                        <div class="menu" id="gmenu">
+                            <div class="btn" id="btn">
+                                <ion-icon name="add-outline"></ion-icon>
+                            </div>
+
+                            <div class="submenu">
+                                <div class="shareicon" id="shareicon">
+                                    <ion-icon name="share-outline"></ion-icon>
+                                    <ion-icon name="share-outline"></ion-icon>
+                                </div>
+                    
+                                <ion-icon class="favbtn" id="favbtn" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+
+
+                        
                     </div>
+
+                    <img src="../../alpha/build/buildres/animation.webp" alt="Animation">
+                
                 </div>
 
 
-                
-            </div>
+                <div class="cardback">
+                    <div>
+                        <h2>MASTER THE ART OF VISUAL STORYTELLING</h2>
 
-            <img src="../../alpha/build/buildres/animation.webp" alt="Animation">
-        
+                        <p>
+                            Drexel's Animation & Visual Effects program trains the next 
+                            generation of creative storytellers in the art of 3D computer graphics. 
+                            Our studio-based curriculum combines technical expertise with artistic vision, 
+                            preparing students for the dynamic world of digital entertainment and beyond.
+                        </p>
+
+                        <p>
+                            Through our unique hybrid approach, you'll develop advanced skills in digital 
+                            design while engaging in real-world projects that matter. Whether you're creating 
+                            immersive 3D environments, developing interactive experiences, or pushing the 
+                            boundaries of animation, our program provides the technical expertise and creative 
+                            foundation needed for success in the digital media landscape.
+                        </p>
+
+                    </div>
+
+                    <div class="cflip">
+                        <div  class="txt"><h2>Click to Flip for more info</h2> </div>
+                        <div class="behind"></div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
 
@@ -143,6 +178,7 @@
                             <li><p>The image also zooms in slightly</p></li>
                             <li><p>The card background color changes to gradient</p></li>
                             <li><p>cursor changes to pointer</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                         </ul>
                     </div>
 
@@ -153,6 +189,7 @@
                             <li><p>The image also zooms out slightly to default.</p></li>
                             <li><p>The card background color changes from the gradient to default.</p></li>
                             <li><p>cursor changes back to arrow</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                         </ul>
                     </div>
             
@@ -164,6 +201,7 @@
                         <ul>
                             <li><p>"+" icon rotates 135 degree to make an "x" icon</p></li>
                             <li><p>menu bar slides open to the right</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                         </ul>
                     </div>
 
@@ -172,6 +210,7 @@
                         <ul>
                             <li><p>"x" icon rotates back to make a "+" icon</p></li>
                             <li><p>menu bar slides to close</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                         </ul>
                     </div>
                 </section>
@@ -182,6 +221,8 @@
                         <ul>
                             <li><p>button gets filled in black</p></li>
                             <li><p>undo the black fill in</p></li>
+                            <li><p>fill in and Unfill transitional time happen instant</p></li>
+                            <li><p>state of button gets updated in the database until clicked again</p></li>
                         </ul>
                     </div>
                 </section>
@@ -191,6 +232,7 @@
                         <h3>Share button Click</h3>
                         <ul>
                             <li><p>Send-like motion occur and the button appears to be flying out</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                             
                         </ul>
                     </div>
@@ -201,6 +243,7 @@
                         <h3>Flip button Hover On</h3>
                         <ul>
                             <li><p>button gets filled in yellow from left to right</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                             
                         </ul>
                     </div>
@@ -209,6 +252,7 @@
                         <h3>Flip button Hover Off</h3>
                         <ul>
                             <li><p>button gets unfilled from right to left</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                             
                         </ul>
                     </div>
@@ -220,6 +264,7 @@
                         <ul>
                             <li><p>Flips the degree card horizontally to show other side</p></li>
                             <li><p>Flips the degree card horizontally to default</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                             
                         </ul>
                     </div>
@@ -237,6 +282,7 @@
                             <li><p>The image also zooms in slightly</p></li>
                             <li><p>The card background color changes to gradient</p></li>
                             <li><p>cursor changes to pointer</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                         </ul>
                     </div>
 
@@ -247,6 +293,7 @@
                             <li><p>The image also zooms out slightly to default.</p></li>
                             <li><p>The card background color changes from the gradient to default.</p></li>
                             <li><p>cursor changes back to arrow</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                         </ul>
                     </div>
             
@@ -258,6 +305,7 @@
                         <ul>
                             <li><p>"+" icon rotates 135 degree to make an "x" icon</p></li>
                             <li><p>menu bar slides open to the right</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                         </ul>
                     </div>
 
@@ -266,6 +314,7 @@
                         <ul>
                             <li><p>"x" icon rotates back to make a "+" icon</p></li>
                             <li><p>menu bar slides to close</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                         </ul>
                     </div>
                 </section>
@@ -276,6 +325,7 @@
                         <ul>
                             <li><p>button gets filled in black</p></li>
                             <li><p>undo the black fill in</p></li>
+                            <li><p>fill in and Unfill transitional time happen instant</p></li>
                         </ul>
                     </div>
                 </section>
@@ -285,6 +335,7 @@
                         <h3>Share button Click</h3>
                         <ul>
                             <li><p>Send-like motion occur and the button appears to be flying out</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                             
                         </ul>
                     </div>
@@ -295,6 +346,7 @@
                         <h3>Flip button Hover On</h3>
                         <ul>
                             <li><p>button gets filled in yellow from left to right</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                             
                         </ul>
                     </div>
@@ -303,6 +355,7 @@
                         <h3>Flip button Hover Off</h3>
                         <ul>
                             <li><p>button gets unfilled from right to left</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                             
                         </ul>
                     </div>
@@ -314,6 +367,7 @@
                         <ul>
                             <li><p>Flips the degree card horizontally to show other side</p></li>
                             <li><p>Flips the degree card horizontally to default</p></li>
+                            <li><p>transitional time is 0.5s ease in and out</p></li>
                             
                         </ul>
                     </div>
@@ -348,5 +402,6 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <script src="../../beta/build/js.js"></script>
+    
 </body>
 </html>

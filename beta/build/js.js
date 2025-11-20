@@ -19,6 +19,17 @@ const fav = document.getElementById("favbtn");
   // share button animation
   const likeButton = document.getElementById('shareicon');
 
-likeButton.addEventListener('click', () => {
+  likeButton.addEventListener('click', () => {
   likeButton.classList.toggle('active');
+});
+
+
+
+const cardfull = document.querySelector('.cardfull');
+const flips = document.querySelectorAll('.cflip');
+
+flips.forEach(flip => {
+  flip.addEventListener('click', () => {
+    cardfull.classList.toggle('flipped');
+  });
 });

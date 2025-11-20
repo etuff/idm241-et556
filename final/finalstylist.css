@@ -212,12 +212,13 @@
     transition: all 0.5s ease-in-out;
   }
 
-  .grayy {
-    color: var(--gray);
-  }
+  
 
 }
 
+.grayy {
+    color: var(--gray);
+  }
 
 .cardview:hover {
   background: linear-gradient(

@@ -7,13 +7,26 @@ const fav = document.getElementById("favbtn");
     gmenu.classList.toggle("open");
   });
 
-  favbtn.addEventListener("click", () => {
-    if (favbtn.getAttribute("name") === "bookmark-outline") {
-      favbtn.setAttribute("name", "bookmark");
-    } else {
-      favbtn.setAttribute("name", "bookmark-outline");
-    }
-  });
+favbtn.addEventListener("click", () => {
+
+  // Instantly hide (no fade-out)
+  favbtn.style.transition = "none";
+  favbtn.style.opacity = "0";
+
+  // Swap icon immediately
+  if (favbtn.getAttribute("name") === "bookmark-outline") {
+    favbtn.setAttribute("name", "bookmark");
+  } else {
+    favbtn.setAttribute("name", "bookmark-outline");
+  }
+
+  // Then fade IN
+  setTimeout(() => {
+    favbtn.style.transition = "opacity 0.5s ease-in-out";
+    favbtn.style.opacity = "1";
+  }, 10); 
+});
+
 
 
   // share button animation
@@ -33,3 +46,5 @@ flips.forEach(flip => {
     cardfull.classList.toggle('flipped');
   });
 });
+
+

@@ -309,7 +309,13 @@
         }
       }
 
+      .favbtn {
+        transition: opacity 0.5s ease-in-out;
+      }
+
+
       .favbtn.active {
+      
         color: var(--yellow);
       }
       
@@ -409,6 +415,7 @@
 
       .txt  {
         color: var(--black);
+        place-self: center;
         justify-self: center;
         position: relative;
         place-self: center;
@@ -419,6 +426,7 @@
 
         h2 {
           margin: 0;
+          justify-self: center;
         }
       }
 

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "grotesk";
+    src: url("font/HostGrotesk-Medium.ttf");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200 800;
+  }
+  
+  @font-face {
+    font-family: "bold";
+    src: url("font/HostGrotesk-Bold.ttf");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 200 800;
+  }
+
+  html {
+    --white: #ffffff;
+    --gray-white: #EAEAEA;
+    --yellow: #EAEA05;
+    --charcoal: #222823;
+    --gray: #777777;
+    --black: black;
+    scroll-behavior: smooth;
+  
+    --tbody: 'grotesk', Arial, sans-serif;
+    --ttitle: 'bold', Arial, sans-serif; 
+  
+  }
+
+
+  body {
+    background-image: linear-gradient(to right top, #33363b, #272c2f, #1e2223, #161918, #0c0d0c);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    
+
+    color: var(--white);
+
+    /* h1, h2, h3 {
+      font-family: var(--ttitle);
+    } */
+    
+
+    p, h1, h2, h3 {
+      font-family: var(--tbody);
+    }
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    #lh {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        width: 60px;
+        height: auto;
+      }
+    } 
+
+    .hcolor {
+      color: var(--yellow);
+    }
+  }
+
+  #title {
+    justify-self: center;
+    margin: 0;
+  }

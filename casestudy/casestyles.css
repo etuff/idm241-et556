@@ -37,14 +37,14 @@
     background-attachment: fixed;
     
 
-    color: var(--white);
+    color: var(--gray-white);
 
     /* h1, h2, h3 {
       font-family: var(--ttitle);
     } */
     
 
-    p, h1, h2, h3 {
+    p, h1, h2, h3, h4 {
       font-family: var(--tbody);
     }
   }
@@ -95,6 +95,9 @@
     }
 
 
+    img {
+      width: 100%;
+    }
 
     .casetext {
         padding: 20px 80px;

@@ -114,18 +114,76 @@
     }
 
     .casetext {
-        padding: 20px 80px;
-        color: var(--white);
+      padding: 20px 80px;
+      color: var(--white);
 
-        .casetitle {
-          color: var(--gray);
-          border-bottom: 2px solid var(--gray);
-          padding-bottom: 15px;
-        }
-
+      .casetitle {
+        color: var(--gray);
+        border-bottom: 2px solid var(--gray);
+        padding-bottom: 15px;
+      }
         
     }
+
+    .grid-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0;                    
+      padding-left: 1.5rem;
+      
+    }
+
+    .ingrid {
+      list-style-position: inside;
+      padding: 1rem;
+      border: 1px solid #ccc;
+    }
+
+
+    .caselink {
+        margin: 30px;
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+
+        button {
+          width: 400px;
+          margin: 0;
+          padding: 15px 15px;
+          color: var(--black);
+          background-color: var(--yellow);
+          border: 3px solid var(--yellow);
+          border-radius: 30px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          transition: all 0.3s ease-in-out;
+          
+
+          a {
+              color: var(--black);
+              font-size: 18px;
+              margin: 0;
+          }
+   
+        }
+
+        button:hover {
+          color: var(--white);
+          background-color: transparent;
+
+          a{
+              color: var(--white);
+          }
+        }   
+
+    }
+
+
   }
+
 
   
 

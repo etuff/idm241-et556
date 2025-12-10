@@ -25,7 +25,7 @@
 
     
 
-    <h1 id="title">DIGM Degree Card Microinteractions</h1>
+    <h1 id="title">Microinteraction Redesign for DIGM Degree Cards</h1>
 
     <img id="heroimg" src="media/heroimage.jpg" alt="hero image">
 
@@ -210,7 +210,190 @@
                 <li><p>Flip (click) — card flips horizontally to show the back; click executes flip animation.</p></li>
             </ul>
         </div>
+        
+    </div>
 
+
+    <div class="casetext">
+        <h2 class="casetitle">The Solution</h2>
+        <p>
+            Through iterative builds and prototyping, the final solution delivered an interactive and a more confident user experience. 
+            The microinteractions worked together to create a page that communicates clearly, responds naturally, and feels more enjoyable to navigate.
+        </p>
+
+        <h4>Here are the core features</h4>
+        <ol class="grid-list">
+            <li class="ingrid"><p>Triggers</p>
+                <ul>
+                    <li><p>Degree Card Hover On and Off</p></li>
+                    <li><p>“+” button Click</p></li>
+                    <li><p>“Share” button Click</p></li>
+                    <li><p>“Favorite” button Click</p></li>
+                    <li><p>Flip button On and Off</p></li>
+                    <li><p>Flip button Click</p></li>
+                </ul>
+            
+            </li>
+
+            <li class="ingrid">
+                <p>Loops and Mode</p>
+                <p>No repeating auto-loops.</p>
+            </li>
+
+            <li class="ingrid">
+                <p>Rules</p>
+                <ul>
+                    <li><p>Degree Card Hover On: <br>
+                         image toggles from grayscale to color; image scale increases to 1.04; background becomes gradient; cursor → pointer; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Degree Card Hover Off: <br>
+                             image reverts to grayscale and scale 1.0; background changes to solid black; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            “+” cutton Click to Open: <br> 
+                            "+" icon rotates 135° to form “x”; menu slides open to the right; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            “x” button Click to Close: <br> 
+                            "x" icon rotates back to "+"; menu slides closed; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            "Favorite" button Click: <br>
+                            button gets filled in black; Second click unfill it; state of button gets updated in the database until clicked again; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Share button Click: <br>
+                            Send-like motion occur and the button appears to be flying out; transitional time is 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Flip button Hover On: <br>
+                            button gets filled in yellow from left to right; transitional time is 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Flip button Hover Off: <br>
+                            button gets unfilled from right to left; transitional time is 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Flip button Click: <br>
+                            Flips the degree card horizontally to show other side; transitional time is 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="ingrid">
+                <p>Feedback <br>
+                This is anything the user sees, feels, or hear once the microinteraction is triggered.</p>
+                <ul>
+                    <li><p>Degree Card Hover On: <br>
+                         image toggles from grayscale to color; image scale increases to 1.04; background becomes gradient; cursor → pointer; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Degree Card Hover Off: <br>
+                             image reverts to grayscale and scale 1.0; background changes to solid black; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            “+” cutton Click to Open: <br> 
+                            "+" icon rotates 135° to form “x”; menu slides open to the right; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            “x” button Click to Close: <br> 
+                            "x" icon rotates back to "+"; menu slides closed; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            "Favorite" button Click: <br>
+                            button gets filled in black; Second click unfill it; transitions 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Share button Click: <br>
+                            Send-like motion occur and the button appears to be flying out; transitional time is 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Flip button Hover On: <br>
+                            button gets filled in yellow from left to right; transitional time is 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Flip button Hover Off: <br>
+                            button gets unfilled from right to left; transitional time is 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Flip button Click: <br>
+                            Flips the degree card horizontally to show other side; transitional time is 0.5s ease in and out.
+                        </p>
+                    </li>
+
+                </ul>
+            </li>
+
+            
+        </ol>
+
+        <div class="caselink">
+          <p>
+            You can see the final Build here
+          </p>
+          
+          <button><a href="https://idm241-et556.netlify.app/final/build/" target="_blank">
+            Final Build Microinteractions.</a></button>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="casetext">
+         
     </div>
 
     

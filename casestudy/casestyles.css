@@ -1,6 +1,6 @@
 @font-face {
     font-family: "grotesk";
-    src: url("../alpha/font/HostGrotesk-Medium.ttf");
+    src: url("../alpha/font/HostGrotesk-Regular.ttf");
     font-style: normal;
     font-display: swap;
     font-weight: 200 800;
@@ -37,7 +37,7 @@
     background-attachment: fixed;
     
 
-    color: var(--gray-white);
+    color: var(--white);
 
     /* h1, h2, h3 {
       font-family: var(--ttitle);
@@ -82,21 +82,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--gray-white);
 
     #title {
         justify-self: center;
         margin: 0;
     }
 
+    a {
+      color: var(--gray);
+    }
+
+    a:hover {
+      color: var(--gray-white);
+    }
 
     #heroimg {
         width: 100%;
         margin: 20px 0;
     }
 
+  
 
     img {
       width: 100%;
+    }
+
+    p {
+      color: var(--gray-white);
+      line-height: 30px;
     }
 
     .casetext {
@@ -104,9 +118,25 @@
         color: var(--white);
 
         .casetitle {
-            color: var(--gray);
+          color: var(--gray);
+          border-bottom: 2px solid var(--gray);
+          padding-bottom: 15px;
         }
+
+        
     }
   }
 
   
+
+
+
+
+  footer {
+    margin-top: 50px;
+    justify-items: center;
+
+    p {
+      color: var(--gray);
+    }
+  }
